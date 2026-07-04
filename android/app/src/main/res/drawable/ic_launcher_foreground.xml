@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+
+    <!-- Running figure (Material directions_run icon centered) -->
+    <!-- Head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26a5,5 0,1 0,0 -10a5,5 0,1 0,0 10z" />
+
+    <!-- Body + arms + legs stylized running pose -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+M58,30 L62,42 L70,38 L68,42 L60,48 L64,60 L72,72 L68,74 L60,62 L54,50 L48,62 L44,74 L40,72 L46,60 L48,48 L38,42 L40,38 L50,44 Z" />
+</vector>

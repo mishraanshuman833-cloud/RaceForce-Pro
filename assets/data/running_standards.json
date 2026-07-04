@@ -1,0 +1,415 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "standards": [
+    {
+      "id": "ssc_gd",
+      "name": "SSC GD Constable",
+      "full_name": "Staff Selection Commission - General Duty Constable",
+      "logo": "ssc_gd",
+      "color": "#1565C0",
+      "categories": [
+        {
+          "gender": "male",
+          "label": "Male",
+          "events": [
+            {
+              "name": "1600m Run",
+              "distance_meters": 1600,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General / OBC",
+                  "time_seconds": 390,
+                  "time_display": "6 min 30 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "label": "Female",
+          "events": [
+            {
+              "name": "800m Run",
+              "distance_meters": 800,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General / OBC",
+                  "time_seconds": 240,
+                  "time_display": "4 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST",
+                  "time_seconds": 260,
+                  "time_display": "4 min 20 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "additional_events": [
+        {
+          "gender": "male",
+          "name": "Long Jump",
+          "standard": "11 feet"
+        },
+        {
+          "gender": "male",
+          "name": "High Jump",
+          "standard": "3.5 feet"
+        },
+        {
+          "gender": "female",
+          "name": "Long Jump",
+          "standard": "9 feet"
+        },
+        {
+          "gender": "female",
+          "name": "High Jump",
+          "standard": "3 feet"
+        }
+      ]
+    },
+    {
+      "id": "up_police",
+      "name": "UP Police Constable",
+      "full_name": "Uttar Pradesh Police - Constable",
+      "logo": "up_police",
+      "color": "#1B5E20",
+      "categories": [
+        {
+          "gender": "male",
+          "label": "Male",
+          "events": [
+            {
+              "name": "4.8 km Run",
+              "distance_meters": 4800,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "All Categories",
+                  "time_seconds": 1500,
+                  "time_display": "25 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying (Pass/Fail)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "label": "Female",
+          "events": [
+            {
+              "name": "2.4 km Run",
+              "distance_meters": 2400,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "All Categories",
+                  "time_seconds": 840,
+                  "time_display": "14 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying (Pass/Fail)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "height_standards": [
+        {
+          "gender": "male",
+          "general_obc": "168 cm",
+          "sc_st": "160 cm"
+        },
+        {
+          "gender": "female",
+          "general_obc": "152 cm",
+          "sc_st": "147 cm"
+        }
+      ]
+    },
+    {
+      "id": "delhi_police",
+      "name": "Delhi Police Constable",
+      "full_name": "Delhi Police - Constable (Executive)",
+      "logo": "delhi_police",
+      "color": "#4A148C",
+      "categories": [
+        {
+          "gender": "male",
+          "label": "Male",
+          "events": [
+            {
+              "name": "1600m Run",
+              "distance_meters": 1600,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General",
+                  "time_seconds": 360,
+                  "time_display": "6 min 00 sec",
+                  "marks": 15,
+                  "note": "Full marks"
+                },
+                {
+                  "category": "General",
+                  "time_seconds": 390,
+                  "time_display": "6 min 30 sec",
+                  "marks": 12,
+                  "note": ""
+                },
+                {
+                  "category": "General",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 9,
+                  "note": ""
+                },
+                {
+                  "category": "SC / OBC",
+                  "time_seconds": 390,
+                  "time_display": "6 min 30 sec",
+                  "marks": 15,
+                  "note": "Full marks"
+                },
+                {
+                  "category": "SC / OBC",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 12,
+                  "note": ""
+                },
+                {
+                  "category": "ST",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 15,
+                  "note": "Full marks"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "label": "Female",
+          "events": [
+            {
+              "name": "800m Run",
+              "distance_meters": 800,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General",
+                  "time_seconds": 220,
+                  "time_display": "3 min 40 sec",
+                  "marks": 15,
+                  "note": "Full marks"
+                },
+                {
+                  "category": "General",
+                  "time_seconds": 240,
+                  "time_display": "4 min 00 sec",
+                  "marks": 12,
+                  "note": ""
+                },
+                {
+                  "category": "SC / OBC",
+                  "time_seconds": 240,
+                  "time_display": "4 min 00 sec",
+                  "marks": 15,
+                  "note": "Full marks"
+                },
+                {
+                  "category": "ST",
+                  "time_seconds": 260,
+                  "time_display": "4 min 20 sec",
+                  "marks": 15,
+                  "note": "Full marks"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cisf",
+      "name": "CISF Constable",
+      "full_name": "Central Industrial Security Force - Constable/Tradesmen",
+      "logo": "cisf",
+      "color": "#E65100",
+      "categories": [
+        {
+          "gender": "male",
+          "label": "Male",
+          "events": [
+            {
+              "name": "1600m Run",
+              "distance_meters": 1600,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General / OBC (Age 18-23)",
+                  "time_seconds": 390,
+                  "time_display": "6 min 30 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST (Age 18-23)",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "General / OBC (Age 24-28)",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST (Age 24-28)",
+                  "time_seconds": 450,
+                  "time_display": "7 min 30 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "label": "Female",
+          "events": [
+            {
+              "name": "800m Run",
+              "distance_meters": 800,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General / OBC (Age 18-23)",
+                  "time_seconds": 240,
+                  "time_display": "4 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST (Age 18-23)",
+                  "time_seconds": 260,
+                  "time_display": "4 min 20 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "additional_info": "Height: Male General/OBC 170cm, SC/ST 165cm. Female General/OBC 157cm, SC/ST 152cm"
+    },
+    {
+      "id": "crpf",
+      "name": "CRPF Constable",
+      "full_name": "Central Reserve Police Force - Constable (Technical & Tradesmen)",
+      "logo": "crpf",
+      "color": "#880E4F",
+      "categories": [
+        {
+          "gender": "male",
+          "label": "Male",
+          "events": [
+            {
+              "name": "1600m Run",
+              "distance_meters": 1600,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General / OBC",
+                  "time_seconds": 390,
+                  "time_display": "6 min 30 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST",
+                  "time_seconds": 420,
+                  "time_display": "7 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gender": "female",
+          "label": "Female",
+          "events": [
+            {
+              "name": "800m Run",
+              "distance_meters": 800,
+              "type": "run",
+              "qualifying_criteria": [
+                {
+                  "category": "General / OBC",
+                  "time_seconds": 240,
+                  "time_display": "4 min 00 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                },
+                {
+                  "category": "SC / ST",
+                  "time_seconds": 260,
+                  "time_display": "4 min 20 sec",
+                  "marks": 0,
+                  "note": "Qualifying"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "additional_events": [
+        {
+          "gender": "male",
+          "name": "Long Jump",
+          "standard": "11 feet"
+        },
+        {
+          "gender": "male",
+          "name": "High Jump",
+          "standard": "3.5 feet"
+        },
+        {
+          "gender": "female",
+          "name": "Long Jump",
+          "standard": "9 feet"
+        }
+      ]
+    }
+  ]
+}
